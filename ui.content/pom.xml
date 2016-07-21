@@ -21,8 +21,8 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>org.summit</groupId>
-        <artifactId>lab</artifactId>
+        <groupId>com.groupId</groupId>
+        <artifactId>artifactId</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -30,7 +30,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>lab.ui.content</artifactId>
+    <artifactId>artifactId.ui.content</artifactId>
     <packaging>content-package</packaging>
     <name>artifactName - UI content</name>
     <description>UI content package for artifactName</description>
@@ -121,8 +121,8 @@
                     <group>packageGroup</group>
                     <embeddeds>
                         <embedded>
-                            <groupId>org.summit</groupId>
-                            <artifactId>lab.core</artifactId>
+                            <groupId>com.groupId</groupId>
+                            <artifactId>artifactId.core</artifactId>
                             <target>/apps/appsFolderName/install</target>
                         </embedded>
                     </embeddeds>
@@ -196,8 +196,8 @@
     <!-- ====================================================================== -->
     <dependencies>
         <dependency>
-            <groupId>org.summit</groupId>
-            <artifactId>lab.core</artifactId>
+            <groupId>com.groupId</groupId>
+            <artifactId>artifactId.core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 

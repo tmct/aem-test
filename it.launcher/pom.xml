@@ -18,8 +18,8 @@
 
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.summit</groupId>
-        <artifactId>lab</artifactId>
+        <groupId>com.groupId</groupId>
+        <artifactId>artifactId</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -27,7 +27,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>lab.it.launcher</artifactId>
+    <artifactId>artifactId.it.launcher</artifactId>
     <packaging>jar</packaging>
     <name>artifactName - Integration Tests Launcher</name>
     <description>Integration Tests Launcher for artifactName</description>
@@ -230,8 +230,8 @@
                                 -->
                                 <sling.additional.bundle.1>org.apache.sling.junit.core</sling.additional.bundle.1>
                                 <sling.additional.bundle.2>org.apache.sling.junit.scriptable</sling.additional.bundle.2>
-                                <sling.additional.bundle.3>lab.it.tests</sling.additional.bundle.3>
-                                <sling.additional.bundle.4>lab.core</sling.additional.bundle.4>
+                                <sling.additional.bundle.3>artifactId.it.tests</sling.additional.bundle.3>
+                                <sling.additional.bundle.4>artifactId.core</sling.additional.bundle.4>
                                 <sling.additional.bundle.5>org.apache.sling.junit.remote</sling.additional.bundle.5>
                                 <sling.additional.bundle.6>org.apache.sling.testing.tools</sling.additional.bundle.6>
                                 <sling.additional.bundle.7>httpclient-osgi</sling.additional.bundle.7>
@@ -323,13 +323,13 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.summit</groupId>
-            <artifactId>lab.it.tests</artifactId>
+            <groupId>com.groupId</groupId>
+            <artifactId>artifactId.it.tests</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>org.summit</groupId>
-            <artifactId>lab.core</artifactId>
+            <groupId>com.groupId</groupId>
+            <artifactId>artifactId.core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

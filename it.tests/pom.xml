@@ -21,8 +21,8 @@
     <!-- P A R E N T  P R O J E C T  D E S C R I P T I O N                      -->
     <!-- ====================================================================== -->
     <parent>
-        <groupId>org.summit</groupId>
-        <artifactId>lab</artifactId>
+        <groupId>com.groupId</groupId>
+        <artifactId>artifactId</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -30,7 +30,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>lab.it.tests</artifactId>
+    <artifactId>artifactId.it.tests</artifactId>
     <packaging>bundle</packaging>
     <name>artifactName - Integration Tests Bundles</name>
     <description>Bundles for Integration Tests for artifactName</description>
@@ -99,8 +99,8 @@
         </dependency>
 
         <dependency>
-            <groupId>org.summit</groupId>
-            <artifactId>lab.core</artifactId>
+            <groupId>com.groupId</groupId>
+            <artifactId>artifactId.core</artifactId>
             <version>1.0-SNAPSHOT</version>
             <type>bundle</type>
             <scope>provided</scope>
