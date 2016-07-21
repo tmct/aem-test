@@ -15,7 +15,8 @@ mvn archetype:generate \
 1. Start up https://github.com/gavoja/aemsync
 1. Touch each file to get a sync going:
 ```bash
-find . -exec touch {} \;```
+find . -exec touch {} \;
+```
 1. Hey presto! Synced
 
 ## Modules
