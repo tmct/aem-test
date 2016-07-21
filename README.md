@@ -14,9 +14,9 @@ mvn archetype:generate \
 1. Start up AEM 6.2 on `localhost:4502`
 1. Start up https://github.com/gavoja/aemsync
 1. Touch each file to get a sync going:
-```bash
-find . -exec touch {} \;
-```
+  ```bash
+  find . -exec touch {} \;
+  ```
 1. Hey presto! Synced
 
 ## Modules
