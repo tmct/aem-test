@@ -2,6 +2,23 @@
 
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
 
+## EDIT: How I (Tom) created it
+1. Install Maven and set up env. variables
+1. ```bash
+mvn archetype:generate \
+  -DarchetypeGroupId=com.adobe.granite.archetypes \
+  -DarchetypeArtifactId=aem-project-archetype \
+  -DarchetypeVersion=10 \
+  -DarchetypeRepository=https://repo.adobe.com/nexus/content/groups/public/```
+
+1. Start up AEM 6.2 on `localhost:4502`
+1. Start up https://github.com/gavoja/aemsync
+1. Touch each file to get a sync going:
+  ```
+  find . -exec touch {} \;
+  ```
+1. Hey presto! Synced
+
 ## Modules
 
 The main parts of the template are:
@@ -21,11 +38,11 @@ To build all the modules run in the project root directory the following command
 If you have a running AEM instance you can build and package the whole project and deploy into AEM with  
 
     mvn clean install -PautoInstallPackage
-    
+
 Or to deploy it to a publish instance, run
 
     mvn clean install -PautoInstallPackagePublish
-    
+
 Or to deploy only the bundle to the author, run
 
     mvn clean install -PautoInstallBundle
